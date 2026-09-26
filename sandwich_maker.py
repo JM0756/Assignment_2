@@ -14,4 +14,4 @@ class SandwichMaker:
         """Deduct the required ingredients from the resources."""
         for item, amount in order_ingredients.items():
             self.machine_resources[item] -= amount
-        print(f"{sandwich_size} sandwich is ready. Bon appetit!")
+        print(f"{sandwich_size} Sandwich is ready!")
