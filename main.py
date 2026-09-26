@@ -13,7 +13,7 @@ def main():
     is_on = True
 
     while is_on:
-        choice = input("What would you like? (small/ medium/ large/ off/ report): ").lower().strip()
+        choice = input("What would you like? (small/ medium/ large/ report/ off): ").lower().strip()
 
         if choice == "off":
             is_on = False
